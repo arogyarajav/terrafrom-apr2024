@@ -13,6 +13,3 @@ sudo curl -H "X-aws-ec2-metadata-token: $TOKEN" http://169.254.169.254/latest/dy
 # AWS Documentation to retrieve EC2 Instance Data
 # https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
 
-
-
-
