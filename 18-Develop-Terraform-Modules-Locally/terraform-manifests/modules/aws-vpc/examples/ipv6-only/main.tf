@@ -32,7 +32,7 @@ module "vpc" {
   private_subnet_ipv6_native   = true
   private_subnet_ipv6_prefixes = [3, 4, 5]
 
-  # RDS currently only supports dual-stack so IPv4 CIDRs will need to be provided for subnets
+  # RDS currently only supports dual-Terrafrom so IPv4 CIDRs will need to be provided for subnets
   # database_subnet_ipv6_native   = true
   # database_subnet_ipv6_prefixes = [6, 7, 8]
 
